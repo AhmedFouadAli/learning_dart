@@ -1,5 +1,5 @@
 void main() {
-  int age = 19;
-  String result = age++ >= 20 ? "adult" : "child";
-  print("Result: $result");
+  dynamic name = "ahmed";
+  name = 10;
+  print(name.toUpperCase());
 }
