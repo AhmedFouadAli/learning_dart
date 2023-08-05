@@ -36,4 +36,5 @@ void main() {
   print(cities.reversed.toList());
   cities.sort();
   print(cities);
+  print(cities.skip(2).take(2));
 }
