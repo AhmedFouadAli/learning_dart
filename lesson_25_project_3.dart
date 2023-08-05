@@ -107,7 +107,7 @@ void main(List<String> args) {
 '''
   ];
   Random random = Random();
-  final key = wordList[random.nextInt(wordList.length - 1)];
+  final key = wordList[random.nextInt(wordList.length)];
 
   String guessingWord = "_" * key.length; // "_____"
   int mistakes = stages.length;
