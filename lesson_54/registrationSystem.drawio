@@ -1,0 +1,61 @@
+<mxfile host="65bd71144e">
+    <diagram id="L54uLWEAQPXEzWCLXNP-" name="Page-1">
+        <mxGraphModel dx="497" dy="1613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <object label="" dfg="dfg" id="0">
+                    <mxCell/>
+                </object>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="13" value="Student" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeWidth=4;" parent="1" vertex="1">
+                    <mxGeometry x="100" width="470" height="490" as="geometry">
+                        <mxRectangle x="80" y="60" width="100" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="14" value="&lt;i&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace;&quot;&gt;&lt;u&gt;+ maxNumberOfHours:int=19;&lt;br&gt;+ maxNumberOfAllowChanges:int=3;&lt;/u&gt;&lt;/span&gt;&lt;/i&gt;&lt;u&gt;&lt;br&gt;&lt;/u&gt;&lt;br&gt;- firstName:String&lt;br&gt;- secondNam:String&lt;br&gt;- lastName:String&lt;br&gt;- email:String&lt;br&gt;- id:int&lt;br&gt;- year:int&lt;br&gt;- numberOfAllowChanges:int=0;&lt;i&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/i&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeWidth=4;fontSize=18;labelBorderColor=none;labelBackgroundColor=none;html=1;" parent="13" vertex="1">
+                    <mxGeometry y="26" width="470" height="284" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="" style="line;strokeWidth=4;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="13" vertex="1">
+                    <mxGeometry y="310" width="470" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="&lt;u&gt;+&lt;span style=&quot;background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace;&quot;&gt;getMaxNumberOFHours():int&lt;/span&gt;&lt;br&gt;&lt;/u&gt;&lt;br&gt;-&amp;nbsp;generateEmail():void;&lt;br&gt;+ calculateAge():int;&lt;br&gt;&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeWidth=4;fontSize=18;fontStyle=0;fontColor=#F0F0F0;html=1;" parent="13" vertex="1">
+                    <mxGeometry y="320" width="470" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="Address" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeWidth=4;" parent="1" vertex="1">
+                    <mxGeometry x="630" y="20" width="210" height="220" as="geometry">
+                        <mxRectangle x="80" y="60" width="100" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="18" value="- countryName:String&#10;- cityName:String&#10;- streetName:String&#10;- postNumber:String&#10;- zipCode:int&#10;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeWidth=4;fontSize=18;" parent="17" vertex="1">
+                    <mxGeometry y="26" width="210" height="184" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="" style="line;strokeWidth=4;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="17" vertex="1">
+                    <mxGeometry y="210" width="210" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="Instructor" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+                    <mxGeometry x="510" y="-540" width="300" height="480" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="&lt;u&gt;+ maxNumberOfChanges:int=3&lt;br&gt;&lt;/u&gt;&lt;br&gt;- firstName:String&lt;br&gt;- secondName:String&lt;br&gt;- lastName:String&lt;br&gt;- id:String&lt;br&gt;- email:String&lt;br&gt;- phoneNumber:String&lt;br&gt;- yearOfBirth:int&lt;br&gt;- isActive:bool=true&lt;br&gt;- numberOfChanges:int=0&lt;br&gt;- officeLocation:Map&amp;lt;String,String&amp;gt;&lt;br&gt;- officeHours:Map&amp;lt;DayOfWeek,String&amp;gt;&lt;br&gt;- rank:Rank" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="24">
+                    <mxGeometry y="26" width="300" height="254" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="24">
+                    <mxGeometry y="280" width="300" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="+ changeOfficeHours(DayOfWeek,String):void&lt;br&gt;+&amp;nbsp;isValidToChange():bool&lt;br&gt;&lt;p&gt;-&amp;nbsp;&lt;span style=&quot;color: rgb(220, 220, 170); background-color: rgb(31, 31, 31); font-size: 14px;&quot;&gt;generateEmail():void&lt;/span&gt;&lt;/p&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="24">
+                    <mxGeometry y="288" width="300" height="192" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="&amp;lt;&amp;lt;enum&amp;gt;&amp;gt;&lt;br&gt;&lt;span style=&quot;text-align: left;&quot;&gt;DayOfWeek&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="340" y="-650" width="140" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;color: #4fc1ff;&quot;&gt;SUNDAY&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &lt;span style=&quot;color: #4fc1ff;&quot;&gt;MONDAY&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &lt;span style=&quot;color: #4fc1ff;&quot;&gt;TUESDAY&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &lt;span style=&quot;color: #4fc1ff;&quot;&gt;WEDNESDAY&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &lt;span style=&quot;color: #4fc1ff;&quot;&gt;THURSDAY&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &lt;span style=&quot;color: #4fc1ff;&quot;&gt;FRIDAY&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &lt;span style=&quot;color: #4fc1ff;&quot;&gt;SATURDAY&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="33">
+                    <mxGeometry y="26" width="140" height="174" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="&amp;lt;&amp;lt;enum&amp;gt;&amp;gt;&lt;br&gt;&lt;span style=&quot;text-align: left;&quot;&gt;Rank&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="290" y="-426" width="210" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #4fc1ff;&quot;&gt;&amp;nbsp; AssistantProfessor&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &lt;span style=&quot;color: #4fc1ff;&quot;&gt;AssociateProfessor&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &lt;span style=&quot;color: #4fc1ff;&quot;&gt;Lecturer&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &lt;span style=&quot;color: #4fc1ff;&quot;&gt;Instructor&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &lt;span style=&quot;color: #4fc1ff;&quot;&gt;Researcher&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="37">
+                    <mxGeometry y="26" width="210" height="174" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
